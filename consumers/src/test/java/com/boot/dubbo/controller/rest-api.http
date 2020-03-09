@@ -1,0 +1,9 @@
+GET http://127.0.0.1:8082/ping
+Accept: application/json
+Cache-Control: no-cache
+###
+POST http://127.0.0.1:8082/user/login
+Content-Type: application/x-www-form-urlencoded
+
+username=user&password=123456
+###
